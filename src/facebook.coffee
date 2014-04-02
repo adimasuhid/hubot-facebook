@@ -2,7 +2,6 @@
 
 FacebookApi  = require 'facebook-api'
 FacebookChat = require 'facebook-chat'
-{ExtendedAdapter} = require 'hubot-extended-core'
 
 util    = require 'util'
 utilTools = require './tools'
@@ -11,7 +10,7 @@ access_token = process.env.HUBOT_FACEBOOK_ACCESS_TOKEN
 appId = process.env.HUBOT_FACEBOOK_APP_ID
 facebookId = process.env.HUBOT_FACEBOOK_USER_ID
 
-class Facebookbot extends ExtendedAdapter
+class Facebookbot extends Adapter
   send: (envelope, messages...) ->
     for msg in messages
       console.log "Sending to #{envelope.room}: #{msg}"
