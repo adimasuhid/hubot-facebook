@@ -23,8 +23,7 @@
     "facebook-api": "0.1.2",
     "facebook-chat": ">= 0.0.2",
     "node-xmpp": ">= 0.3.2",
-    "node-expat": ">= 1.6.1",
-    "hubot-extended-core": "git://github.com/tland/hubot-extended-core.git"
+    "node-expat": ">= 1.6.1"
   },
   "devDependencies": {
     "hubot": ">=2.4.7",
