@@ -1,4 +1,4 @@
-{Adapter,Robot,TextMessage,EnterMessage,LeaveMessage} = require '/Users/whz/Projects/Node/a-hubot/node_modules/hubot'
+{Adapter,Robot,TextMessage,EnterMessage,LeaveMessage} = require 'hubot'
 
 FacebookApi  = require 'facebook-api'
 FacebookChat = require 'facebook-chat'
